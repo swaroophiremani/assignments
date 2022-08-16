@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#mainbody {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#mainbody>article {
+    width: 750px;
+    height: 370px;
+    padding: 18px 18px 18px 18px;
+    background-color: rgb(56, 80, 160);
+}
+.group1 {
+    margin-bottom: 20px;
+}
+.group2 {
+    margin-bottom: 20px;
+}
+.group3 {
+    margin-bottom: 20px;
+}
+.group4 {
+    margin-bottom: 20px;
+}
+.group5 {
+    margin-bottom: 20px;
+}
+.group6 {
+    margin-bottom: 20px;
+}
+.group7 {
+    margin-bottom: 20px;
+}
+.label {
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: bold;   
+}
+/* #input{
+    font-family: 'Times New Roman', Times, serif;
+        color: #fff;
+        font-size: 15px;
+        text-transform: capitalize;
+        font-weight: bold;
+}
+#legend{
+    font-family: 'Times New Roman', Times, serif;
+        color: #fff;
+        font-size: 15px;
+        text-transform: capitalize;
+        font-weight: bold;
+} */
+
+
+.group1>input {
+    margin-left: 95px;
+}
+.group2>input {
+    margin-left: 105px;
+}
+.group3>input {
+    margin-left: 115px;
+}
+.group4>input {
+    margin-left: 35px;
+}
+.group5>input {
+    margin-left: 105px;
+}
+.group6>input {
+    margin-left: 105px;
+}
+.group7>input {
+    margin-left: 35px;
+}

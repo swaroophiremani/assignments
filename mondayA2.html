@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration details</title>
+    <link rel="stylesheet" href="./mondayA22.css" />
+    <style>
+        legend{
+                font-family: 'Times New Roman', Times, serif;
+                color: #fff;
+                font-size: 15px;
+                text-transform: capitalize;
+                font-weight: bold;
+                margin-bottom: 20px;
+              }
+              /* label{
+                margin-left: 100px;
+              } */
+    </style>
+</head>
+<body>
+    <section id="mainbody">
+        <article>
+            <form action="#">
+                <fieldset>
+                    <legend>Registration Details</legend>
+                    <div class="group1">
+                        <label for="University" class="label">University:</label>
+                        <input type="text" name="Uname" >
+                    </div>
+                    <div class="group2">
+                        <label for="Institude" class="label">Institude:</label>
+                        <input type="text" name="Iname">
+                    </div>
+                    <div class="group3">
+                        <label for="Branch" class="label">Branch:</label>
+                        <input list="branchlist" placeholder="---select---"/>
+                        <datalist id="branchlist">
+                            <option value="Civil">Civil</option>
+                            <option value="Mech">Mech</option>
+                            <option value="CS">CS</option>
+                            <option value="EEE">EEE</option>
+                            <option value="EC">EC</option>
+                        </datalist>
+                    </div>
+                    <div class="group4">
+                        <label for="Degree" class="label" >Degree:</label>
+                        <input list="selectdegree" placeholder="---select---"/>
+                        <datalist id="selectdegree">
+                            <option value="Diploma">Diploma</option>
+                            <option value="BE">BE</option>
+                            <option value="Mtech">Mtech</option>
+                        </datalist>
+                        <input type="radio" name="Pursuing" value="choose">Pursuing 
+                        <input type="radio" name="Completed" value="choose">Completed                  
+                     </div>
+                    <div class="group5">
+                        <label for="Avarage CPI" class="label">Avarage CPI:</label>
+                        <select name="percen" size="1" multiple="1">
+                        <option value="_______">_______</option>
+                         <option value="_______">_______</option>
+                       </select>
+                        <label for="upto" class="label">Upto</label>
+                       <select name="percen" size="1" multiple="1">
+                        <option value="_______">_______</option>
+                        <option value="_______">_______</option>
+                       </select>
+                       <label for="Th" class="label">Th Semester</label>
+                    </div>
+                    <div class="group6">
+                        <label for="Experirence" class="label">Experirence:</label>
+                        <select name="year" size="1" multiple="1">
+                            <option value="____">____</option>
+                        </select>
+                        <label for="Years" class="label">Years</label>
+                    </div>
+                    <div class="group7">
+                        <label for="Your Website Or Blog" class="label" >Your Website Or Blog:</label>
+                        <input type="text" name="link" placeholder="http://">
+                    </div>
+                </fieldset>
+            </form>
+        </article>
+    </section>
+</body>
+</html>
